@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { cn, graduation, secondary, seniorSecondary } from "../assets/images";
 import {
     car,
     contact,
@@ -97,69 +97,55 @@ export const skills = [
         name: "Sass",
         type: "Frontend",
     },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+  
+   
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "10th Grade",
+        company_name: "Secondary Education",
+        icon: secondary,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "March 2016 - April 2017",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+          "Scored 87.40% in 10th Grade from M.S. Kawar International School, Pali (Rajasthan) — marking the start of my tech journey.",        ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "12th Grade",
+        company_name: "Higher Secondary Education",
+        icon: seniorSecondary,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "March 2019 - April 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Completed my Higher Secondary Education (12th Grade) with 73.00% from Adarsh Central Senior Secondary School, Jodhpur (Rajasthan).",
+            "Also appeared for the JEE Mains exam and cleared it with an 89 percentile, which helped strengthen my foundation in problem-solving and logical thinking.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "B.Tech(CSE)",
+        company_name: "Undergraduation",
+        icon: graduation,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "July 2020 - March 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "B.Tech in Computer Science and Engineering — JECRC University, Jaipur (Rajasthan) — 72.16% (2024)",
+            "Built two projects in Machine Learning, applying data-driven techniques to solve real-world problems.",
+            "Served as the Vice-Captain of the college basketball team, showcasing leadership, teamwork, and discipline both on and off the court.",
+            "Completed an internship at Dataplay, Jaipur, as a Data Analyst, gaining hands-on experience in data handling and visualization.",
+            "Explored various fields of technology, gradually shifting focus toward Full-Stack Development and Software Engineering.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Course",
+        company_name: "Full-Stack Development",
+        icon: cn,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "June 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Learning and building projects using React, Node.js, Express, and MongoDB.",
+            "Strengthened knowledge of Data Structures, Algorithms, and Database Management.",
+            "Focused on writing clean, efficient, and scalable code for real-world applications."
         ],
     },
 ];
@@ -173,12 +159,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/heytush',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/tushar-choudhary-469629202/',
     }
 ];
 

@@ -15,16 +15,19 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Tushar
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
-        </p>
+  I'm a passionate <span className='blue-gradient_text font-semibold drop-shadow'>Full-Stack Developer</span> from India, 
+  focused on building scalable and user-friendly web applications. 
+  I love learning new technologies, solving real-world problems, and continuously improving my craft 
+  through hands-on projects and practical experience.
+</p>
+
       </div>
 
       <div className='py-10 flex flex-col'>
@@ -47,12 +50,14 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>My Journey</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
-          </p>
+  My journey has been all about learning, building, and growing — from my academic foundation 
+  to developing real-world projects that shaped my skills as a full-stack developer. 
+  Here's how it all began:
+</p>
+
         </div>
 
         <div className='mt-12 flex'>
